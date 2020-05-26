@@ -1,0 +1,95 @@
+ProductID,ProductName,ProductCategory,Price
+1,Large Towel,Housekeeping,9
+2,Hand Towel,Housekeeping,5
+3,Washcloth,Housekeeping,3
+4,Shampoo,Housekeeping,40
+5,Moisturizer,Housekeeping,40
+6,Conditioner,Housekeeping,40
+7,Hand Soap,Housekeeping,35
+8,Bath Soap,Housekeeping,35
+9,Tissues,Housekeeping,14
+10,Toilet Paper,Housekeeping,19
+11,Shower Cap,Housekeeping,10
+12,Bed Sheet (King),Housekeeping,29
+13,Bed Sheet (Double),Housekeeping,20
+14,Pillowcase,Housekeeping,15
+15,Drinking Glass,Housekeeping,24
+16,Mouthwash,Housekeeping,40
+17,Clothes Hanger,Housekeeping,18
+18,Coffee Cup,Housekeeping,24
+19,Light Bulb,Housekeeping,17
+20,Pens,Office Supplies,30
+21,Printer Paper,Office Supplies,50
+22,Paper Clips,Office Supplies,3
+23,Printer Toner,Office Supplies,85
+24,Envelopes (Letter),Office Supplies,24
+25,Envelopes (Legal),Office Supplies,28
+26,Envelopes (Catalog),Office Supplies,13
+27,Invisible Tape,Office Supplies,8
+28,Staples,Office Supplies,8
+29,Erasable Markers,Office Supplies,6
+30,Permanent Markers,Office Supplies,6
+31,Sticky Notes,Office Supplies,20
+32,Note Pads,Office Supplies,14
+33,Towel Rack,Furnishings,10
+34,Shower Curtain,Furnishings,5
+35,Tissue Box,Furnishings,25
+36,Armoire,Furnishings,115
+37,Bed (King),Furnishings,300
+38,Bed (Double),Furnishings,250
+39,Alarm Clock,Furnishings,45
+40,Coffee Maker,Furnishings,119
+41,Office Chair,Furnishings,85
+42,Reading Chair,Furnishings,70
+43,Table Lamp,Furnishings,38
+44,Floor Lamp,Furnishings,55
+45,Computer Desk,Furnishings,102
+46,Safe,Furnishings,115
+47,Swivel Chair,Furnishings,75
+48,Side Table,Furnishings,40
+49,Large Vase,Furnishings,27
+50,Small Vase,Furnishings,33
+51,Painting,Furnishings,85
+52,Ironing Board,Furnishings,18
+53,Iron,Furnishings,20
+54,Chest of Drawers,Furnishings,150
+55,Television,Furnishings,200
+56,Telephone,Furnishings,38
+57,Wireless Router,Furnishings,70
+58,Mirror,Furnishings,85
+59,Screws,Maintenance,14
+60,Portable Drill,Maintenance,195
+61,Tape Measure,Maintenance,8
+62,Leaf Blower,Maintenance,202
+63,Duct Tape,Maintenance,27
+64,Gaffer's Tape,Maintenance,27
+65,Ladder,Maintenance,89
+66,Wood Glue,Maintenance,21
+67,Adjustable Wrench,Maintenance,10
+68,Window Screen,Maintenance,30
+69,Door Knob,Maintenance,41
+70,Door Lock,Maintenance,117
+71,Hammer,Maintenance,17
+72,Nails,Maintenance,12
+73,Mop,Maintenance,15
+74,Large Plant,Public Areas,35
+75,Small Plant,Public Areas,25
+76,Ficus,Public Areas,80
+77,Large Area Rug,Public Areas,40
+78,Small Area Rug,Public Areas,20
+79,Coffee Table,Public Areas,103
+80,Poster Stand,Public Areas,27
+81,Flyer Holder,Public Areas,3
+82,Business Cards,Public Areas,60
+83,Bar Stool,Public Areas,60
+84,Tall Chair,Public Areas,75
+85,Low Chair,Public Areas,80
+86,Sofa,Public Areas,215
+87,End Table,Public Areas,30
+88,Serving Tray,Public Areas,6
+89,Photograph,Public Areas,45
+90,Luggage Cart,Public Areas,138
+91,Small Sign,Public Areas,14
+92,Large Sign,Public Areas,20
+93,Terminal,Public Areas,85
+94,Monitor,Public Areas,70
