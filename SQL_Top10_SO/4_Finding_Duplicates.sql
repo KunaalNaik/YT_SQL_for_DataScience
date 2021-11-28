@@ -4,13 +4,12 @@
 Select * 
 FROM dbo.Data_wDuplicates
 
--- Find Duplicates
-Select Name, Location, count(*)
-FROM dbo.Data_wDuplicates
-GROUP BY Name, Location
-HAVING COUNT(*) > 1
+-- Find/Identify Duplicates (with Group by)
 
--- Removing Duplicates from Data
+
+-- Removing Duplicates from Data (without Group by)
+
+
 
 
 
