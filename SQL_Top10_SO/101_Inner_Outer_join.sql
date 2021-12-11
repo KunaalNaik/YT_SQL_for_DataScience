@@ -25,6 +25,7 @@ from dbo.Q1_Training q1
 inner join dbo.Q2_Training q2 on q1.Name = q2.Name
 
 -- Create table with Unique Names
+drop table dbo.Consecutive
 select * into dbo.Consecutive from
 (
     select q1.Name
@@ -33,3 +34,8 @@ select * into dbo.Consecutive from
     from dbo.Q1_Training q1
     inner join dbo.Q2_Training q2 on q1.Name = q2.Name
 ) temp
+
+--Check Data
+select Name
+    , Q1_Trainings + Q1_Trainings as Total_Trainings 
+from dbo.Consecutive
