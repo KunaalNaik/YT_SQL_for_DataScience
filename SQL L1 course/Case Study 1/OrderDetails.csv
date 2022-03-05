@@ -1,4 +1,4 @@
-﻿OrderID,OrderDate,PropertyID,ProductID,Quantity
+OrderID,OrderDate,PropertyID,ProductID,Quantity
 1,01-01-2015,17,41,7
 2,01-01-2015,15,54,20
 3,01-01-2015,5,71,4
