@@ -37,6 +37,16 @@ from orderdetails o
 left join products p on  o.ProductID = p.ProductID
 left join propertyinfo prop on o.PropertyID = prop.`Prop ID`;
 
+SELECT *
+FROM orderdetails o
+left join products p on o.ProductID = p.ProductID
+left join propertyinfo prop on o.PropertyID = prop.`Prop ID`;
+
+
+
+
+
+
  
 
 
