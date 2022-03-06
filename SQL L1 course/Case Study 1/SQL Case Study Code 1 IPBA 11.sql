@@ -78,9 +78,25 @@ select * from superstore_combined ;
 ALTER TABLE superstore_combined
   DROP COLUMN `Prop ID`;
 
+# Insights Stage 3 - Having and Dates 
+create temporary table superstore_temp as
+select *
+, STR_TO_DATE(OrderDate, '%d-%m-%Y') as OrdDate 
+, YEAR(STR_TO_DATE(OrderDate, '%d-%m-%Y')) as OrdYear 
+, MONTH(STR_TO_DATE(OrderDate, '%d-%m-%Y')) as OrdMonth 
+from superstore_combined ;
 
+# Having on Temp Data
+select OrdYear, sum(Sales) as Total_Sales
+from superstore_temp
+group by OrdYear;
 
-
+select OrdMonth, sum(Sales) as Total_Sales
+from superstore_temp
+where OrdYear = 2016
+group by OrdMonth
+having Total_Sales > 120000
+;
 
 
 
