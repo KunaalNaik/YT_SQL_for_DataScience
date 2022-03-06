@@ -96,6 +96,7 @@ from superstore_temp
 where OrdYear = 2016
 group by OrdMonth
 having Total_Sales > 120000
+order by 2
 ;
 
 
