@@ -37,10 +37,49 @@ from orderdetails o
 left join products p on  o.ProductID = p.ProductID
 left join propertyinfo prop on o.PropertyID = prop.`Prop ID`;
 
-SELECT *
+# Notation
+#superstore.orderdetails.OrderID
+#orderdetails.OrderDate
+#orderdetails.PropertyID
+#sample_db.sample_sales.id
+
+SELECT * 
+FROM orderdetails
+left join products on orderdetails.ProductID = products.ProductID
+left join propertyinfo on orderdetails.PropertyID = propertyinfo.`Prop ID`;
+
+# with alias table name
+SELECT * 
 FROM orderdetails o
 left join products p on o.ProductID = p.ProductID
 left join propertyinfo prop on o.PropertyID = prop.`Prop ID`;
+
+#create sales
+SELECT *,  o.Quantity * p.Price as Sales
+FROM orderdetails o
+left join products p on o.ProductID = p.ProductID
+left join propertyinfo prop on o.PropertyID = prop.`Prop ID`;
+
+# Create a table using a Query
+create table superstore_combined as
+SELECT o.*, prop.*
+, p.ProductName
+, p.ProductCategory
+, p.Price
+, o.Quantity * p.Price as Sales
+FROM orderdetails o
+left join products p on o.ProductID = p.ProductID
+left join propertyinfo prop on o.PropertyID = prop.`Prop ID`;
+
+# permanent table
+select * from superstore_combined ;
+
+# Remove one column
+ALTER TABLE superstore_combined
+  DROP COLUMN `Prop ID`;
+
+
+
 
 
 
